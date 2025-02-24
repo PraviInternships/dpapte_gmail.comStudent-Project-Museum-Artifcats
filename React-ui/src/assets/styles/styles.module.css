@@ -1,0 +1,24 @@
+/* Kiosk mode */
+@media (min-width: 1024px) and (min-height: 768px) {
+    .container {
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+  }
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+      margin: 20px auto;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      margin: 10px auto;
+      padding: 5px;
+    }
+  }
+    
